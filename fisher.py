@@ -1,10 +1,19 @@
 from flask import Flask, make_response
+from helper import is_isbn_or_key
+from yushu_book import YuShuBook
 
 app = Flask(__name__)
 app.config.from_object('config')
 
 
-@app.route('/hello')
+@app.route('/book/search/<q>/<page>')
+def search(q, page):
+    isbn_or_key = is_isbn_or_key(q)
+    if isbn_or_key == 'isbn':
+        YuShuBook.search_by_isbn(q)
+
+
+# @app.route('/hello')
 def hello():
     headers = {
         'content-type': 'application/json',
