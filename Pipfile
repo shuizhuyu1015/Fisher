@@ -8,6 +8,9 @@ verify_ssl = true
 [packages]
 flask = "*"
 requests = "*"
+wtforms = "*"
+flask-sqlalchemy = "*"
+cymysql = "*"
 
 [requires]
 python_version = "3.7"
