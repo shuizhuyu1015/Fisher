@@ -29,11 +29,16 @@ class YuShuBook:
         self.books = data['books']
 
     def search_by_keyword(self, keyword, page=1):
-        url = self.keyword_url.format(keyword, current_app.config['PER_COUNT'],
-                                     self.calculate_start(page))
+        s = self.calculate_start(page)
+        url = self.keyword_url.format(keyword, current_app.config['PER_COUNT'], self.calculate_start(page))
         result = HTTP.get(url)
         self.__fill_collection(result)
 
-    def calculate_start(self, page):
+    @staticmethod
+    def calculate_start(page):
         # 计算接口每次开始请求的数据下标
         return (page - 1) * current_app.config['PER_COUNT']
+
+    @property
+    def first(self):
+        return self.books[0] if self.total >= 1 else None

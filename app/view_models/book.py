@@ -12,6 +12,14 @@ class BookViewModel:
         self.price = book['price']
         self.summary = book['summary'] or ''
         self.image = book['image']
+        self.isbn = book['isbn']
+        self.pubdate = book['pubdate']
+        self.binding = book['binding'] or ''
+
+    @property
+    def intro(self):
+        intros = filter(lambda x: True if x else False, [self.author, self.publisher, self.price])
+        return ' / '.join(intros)
 
 
 class BookCollection:

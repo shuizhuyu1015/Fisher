@@ -2,23 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e905adac-41f0-4402-ad82-549882a0a61f" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/forms/book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/setting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view_models/book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/web/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/web/blueprint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/web/book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fisher.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fisher.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/forms/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/forms/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/enums.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/drift.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/gift.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/wish.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/view_models/drift.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/view_models/gift.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/view_models/trade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/view_models/wish.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/secure.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fisher.py" beforeDir="false" afterPath="$PROJECT_DIR$/fisher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/httper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yushu_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/spider/yushu_book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/forms/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/forms/book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/secure.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/secure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/setting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/spider/yushu_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/spider/yushu_book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/email/get_gift.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/email/get_gift.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/email/satisify_wish.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/email/satisfy_wish.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view_models/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/view_models/book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/web/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/web/blueprint.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/blueprint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/web/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/web/drift.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/drift.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/web/gift.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/gift.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/web/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/web/wish.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/wish.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,19 +43,83 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Fisher$fisher.coverage" NAME="fisher Coverage Results" MODIFIED="1554471059191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Fisher$fisher.coverage" NAME="fisher Coverage Results" MODIFIED="1557563345267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/web/book.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/web/drift.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+            <state relative-caret-position="408">
+              <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
               <folding>
-                <element signature="e#38#72#0" expanded="true" />
+                <element signature="e#0#68#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/web/gift.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#72#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/web/wish.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="47" column="61" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/templates/email/satisfy_wish.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/web/book.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+              <folding>
+                <element signature="e#38#96#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/spider/yushu_book.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <folding>
+                <element signature="e#39#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/book_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1906" />
           </provider>
         </entry>
       </file>
@@ -48,12 +128,24 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>abs</find>
+      <find>is_au</find>
+      <find>opt</find>
+      <find>登录</find>
+      <find>satisfy</find>
+      <find>PendingStatus</find>
+      <find>别瞎访问，没这个页面</find>
+      <find>404.html</find>
+      <find>submit</find>
+      <find>form</find>
+    </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
@@ -71,33 +163,51 @@
         <option value="$PROJECT_DIR$/helper.py" />
         <option value="$PROJECT_DIR$/http_manager.py" />
         <option value="$PROJECT_DIR$/fisher.py" />
-        <option value="$PROJECT_DIR$/app/web/blueprint.py" />
-        <option value="$PROJECT_DIR$/app/forms/book.py" />
         <option value="$PROJECT_DIR$/yushu_book.py" />
-        <option value="$PROJECT_DIR$/app/setting.py" />
-        <option value="$PROJECT_DIR$/app/models/book.py" />
         <option value="$PROJECT_DIR$/app/models/book_model.py" />
-        <option value="$PROJECT_DIR$/app/__init__.py" />
-        <option value="$PROJECT_DIR$/app/spider/yushu_book.py" />
-        <option value="$PROJECT_DIR$/app/view_models/book.py" />
         <option value="$PROJECT_DIR$/app/templates/test.html" />
-        <option value="$PROJECT_DIR$/app/secure.py" />
-        <option value="$PROJECT_DIR$/app/web/__init__.py" />
-        <option value="$PROJECT_DIR$/app/templates/base.html" />
-        <option value="$PROJECT_DIR$/app/web/book.py" />
-        <option value="$PROJECT_DIR$/app/web/auth.py" />
-        <option value="$PROJECT_DIR$/app/web/drift.py" />
-        <option value="$PROJECT_DIR$/app/web/gift.py" />
+        <option value="$PROJECT_DIR$/app/models/book.py" />
+        <option value="$PROJECT_DIR$/app/view_models/base.py" />
+        <option value="$PROJECT_DIR$/app/view_models/user.py" />
+        <option value="$PROJECT_DIR$/app/view_models/book.py" />
+        <option value="$PROJECT_DIR$/app/spider/yushu_book.py" />
+        <option value="$PROJECT_DIR$/app/setting.py" />
         <option value="$PROJECT_DIR$/app/web/main.py" />
+        <option value="$PROJECT_DIR$/app/view_models/gift.py" />
+        <option value="$PROJECT_DIR$/app/templates/my_gifts.html" />
+        <option value="$PROJECT_DIR$/app/templates/book_detail.html" />
+        <option value="$PROJECT_DIR$/app/templates/base.html" />
+        <option value="$PROJECT_DIR$/app/view_models/trade.py" />
+        <option value="$PROJECT_DIR$/app/forms/base.py" />
+        <option value="$PROJECT_DIR$/app/web/__init__.py" />
+        <option value="$PROJECT_DIR$/app/web/blueprint.py" />
+        <option value="$PROJECT_DIR$/app/__init__.py" />
+        <option value="$PROJECT_DIR$/app/forms/auth.py" />
+        <option value="$PROJECT_DIR$/app/libs/email.py" />
+        <option value="$PROJECT_DIR$/app/web/auth.py" />
+        <option value="$PROJECT_DIR$/app/secure.py" />
+        <option value="$PROJECT_DIR$/app/models/user.py" />
+        <option value="$PROJECT_DIR$/app/forms/book.py" />
+        <option value="$PROJECT_DIR$/app/templates/email/get_gift.html" />
+        <option value="$PROJECT_DIR$/app/view_models/drift.py" />
+        <option value="$PROJECT_DIR$/app/models/drift.py" />
+        <option value="$PROJECT_DIR$/app/models/base.py" />
+        <option value="$PROJECT_DIR$/app/libs/enums.py" />
+        <option value="$PROJECT_DIR$/app/web/drift.py" />
+        <option value="$PROJECT_DIR$/app/models/gift.py" />
+        <option value="$PROJECT_DIR$/app/web/gift.py" />
+        <option value="$PROJECT_DIR$/app/view_models/wish.py" />
+        <option value="$PROJECT_DIR$/app/models/wish.py" />
         <option value="$PROJECT_DIR$/app/web/wish.py" />
+        <option value="$PROJECT_DIR$/app/web/book.py" />
+        <option value="$PROJECT_DIR$/app/templates/email/satisfy_wish.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="402" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1038" />
-    <option name="height" value="781" />
+    <option name="width" value="1440" />
+    <option name="height" value="821" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -105,7 +215,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,7 +231,38 @@
               <item name="Fisher" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fisher" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="forms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fisher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fisher" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fisher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fisher" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fisher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fisher" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fisher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fisher" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fisher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fisher" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="email" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Fisher" type="b2602c69:ProjectViewProjectNode" />
@@ -130,26 +270,34 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Fisher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/models" />
       <recent name="$PROJECT_DIR$/app/spider" />
       <recent name="$PROJECT_DIR$/app/libs" />
       <recent name="$PROJECT_DIR$/app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/view_models" />
+      <recent name="$PROJECT_DIR$/app/static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -239,31 +387,55 @@
       <workItem from="1554219127853" duration="2569000" />
       <workItem from="1554298225496" duration="5556000" />
       <workItem from="1554453094560" duration="5582000" />
+      <workItem from="1554471887554" duration="89000" />
+      <workItem from="1554821102307" duration="2842000" />
+      <workItem from="1554907460852" duration="4563000" />
+      <workItem from="1554995725397" duration="5078000" />
+      <workItem from="1555002070899" duration="61000" />
+      <workItem from="1555081220401" duration="2683000" />
+      <workItem from="1555162486674" duration="7686000" />
+      <workItem from="1555226925084" duration="4631000" />
+      <workItem from="1555336492962" duration="6650000" />
+      <workItem from="1555423773122" duration="3382000" />
+      <workItem from="1555505533529" duration="1447000" />
+      <workItem from="1555514922347" duration="64000" />
+      <workItem from="1555596822279" duration="3340000" />
+      <workItem from="1555830484106" duration="175000" />
+      <workItem from="1555830791156" duration="410000" />
+      <workItem from="1555835653506" duration="6669000" />
+      <workItem from="1556115340237" duration="3579000" />
+      <workItem from="1556460958969" duration="2356000" />
+      <workItem from="1557067858006" duration="3059000" />
+      <workItem from="1557157043608" duration="4938000" />
+      <workItem from="1557239159767" duration="3572000" />
+      <workItem from="1557414075012" duration="4715000" />
+      <workItem from="1557504187617" duration="2748000" />
+      <workItem from="1557553313355" duration="8856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51958000" />
+    <option name="totallyTimeSpent" value="135551000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1881259" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3280116" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32784638" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3100137" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39912918" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49843913" weight="0.3978052" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3280116" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50156087" side_tool="true" weight="0.3978052" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32784638" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3280116" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -275,261 +447,408 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.local/share/virtualenvs/fisher-US_Su6mT/lib/python3.7/site-packages/flask/app.py" />
-    <entry file="file://$USER_HOME$/.local/share/virtualenvs/fisher-US_Su6mT/lib/python3.7/site-packages/flask/helpers.py" />
-    <entry file="file://$USER_HOME$/.local/share/virtualenvs/Fisher-ZilvCJO_/lib/python3.7/site-packages/requests/api.py">
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/Fisher-ZilvCJO_/lib/python3.7/site-packages/wtforms/validators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="234">
+          <caret line="265" column="8" selection-start-line="265" selection-start-column="8" selection-end-line="265" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.local/share/virtualenvs/Fisher-ZilvCJO_/lib/python3.7/site-packages/requests/sessions.py">
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/Fisher-ZilvCJO_/lib/python3.7/site-packages/flask/globals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6273">
-          <caret line="396" selection-start-line="396" selection-end-line="396" />
+        <state relative-caret-position="542">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.local/share/virtualenvs/Fisher-ZilvCJO_/lib/python3.7/site-packages/werkzeug/serving.py">
+    <entry file="file://$PROJECT_DIR$/app/view_models/book.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="967" selection-start-line="967" selection-end-line="967" />
+        <state relative-caret-position="108">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.local/share/virtualenvs/Fisher-ZilvCJO_/lib/python3.7/site-packages/werkzeug/utils.py">
+    <entry file="file://$PROJECT_DIR$/app/web/auth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="563" selection-start-line="563" selection-end-line="563" />
+        <state relative-caret-position="155">
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/libs/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/app/libs/helper.py">
+    <entry file="file://$PROJECT_DIR$/app/templates/email/get_gift.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/share/virtualenvs/Fisher-ZilvCJO_/lib/python3.7/site-packages/sqlalchemy/sql/schema.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="1017" column="8" selection-start-line="1017" selection-start-column="8" selection-end-line="1017" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/share/virtualenvs/Fisher-ZilvCJO_/lib/python3.7/site-packages/flask/helpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="865" column="6" selection-start-line="865" selection-start-column="6" selection-end-line="865" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/share/virtualenvs/Fisher-ZilvCJO_/lib/python3.7/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="365" column="20" lean-forward="true" selection-start-line="365" selection-start-column="20" selection-end-line="365" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/share/virtualenvs/Fisher-ZilvCJO_/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="956" column="8" selection-start-line="956" selection-start-column="8" selection-end-line="956" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/share/virtualenvs/Fisher-ZilvCJO_/lib/python3.7/site-packages/wtforms/fields/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="587" column="21" selection-start-line="587" selection-start-column="21" selection-end-line="587" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/libs/httper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/python_stubs/-345746184/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="4782" column="8" selection-start-line="4782" selection-start-column="8" selection-end-line="4782" selection-end-column="8" />
+        <state relative-caret-position="18">
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/book.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="6">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding>
             <element signature="e#38#84#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.local/share/virtualenvs/Fisher-ZilvCJO_/lib/python3.7/site-packages/wtforms/form.py">
+    <entry file="file://$PROJECT_DIR$/app/view_models/trade.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="298" column="8" selection-start-line="298" selection-start-column="8" selection-end-line="298" selection-end-column="8" />
+        <state relative-caret-position="294">
+          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/forms/book.py">
+    <entry file="file://$PROJECT_DIR$/app/web/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="205">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
-            <element signature="e#39#90#0" expanded="true" />
+            <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="182" column="4" selection-start-line="182" selection-start-column="4" selection-end-line="182" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fisher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view_models/book.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/spider/yushu_book.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-          <folding>
-            <element signature="e#39#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/secure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/share/virtualenvs/Fisher-ZilvCJO_/lib/python3.7/site-packages/flask/blueprints.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="188" column="8" selection-start-line="188" selection-start-column="8" selection-end-line="188" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/search_result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="416">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
           <folding>
             <element signature="e#38#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/web/__init__.py">
+    <entry file="file://$PROJECT_DIR$/app/view_models/gift.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="413">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <element signature="e#38#56#0" expanded="true" />
+            <element signature="e#38#72#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/pending.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-758" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/Fisher-ZilvCJO_/lib/python3.7/site-packages/wtforms/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="298" column="8" selection-start-line="298" selection-start-column="8" selection-end-line="298" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/forms/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding>
+            <element signature="e#38#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/forms/book.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding>
+            <element signature="e#39#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/forms/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#38#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/Fisher-ZilvCJO_/lib/python3.7/site-packages/requests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/Fisher-ZilvCJO_/lib/python3.7/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-456">
+          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/httper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/Fisher-ZilvCJO_/lib/python3.7/site-packages/flask/blueprints.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="380" column="8" selection-start-line="380" selection-start-column="8" selection-end-line="380" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/web/blueprint.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="144">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/web/auth.py">
+    <entry file="file://$PROJECT_DIR$/app/static/js/base.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/search_result.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        <state relative-caret-position="108">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/util.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/http.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/drift.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="108" column="18" lean-forward="true" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="596" column="20" selection-start-line="596" selection-start-column="16" selection-end-line="596" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="546" column="36" selection-start-line="546" selection-start-column="36" selection-end-line="546" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/drift.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+          <folding>
+            <element signature="e#4175#4199#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/Fisher-ZilvCJO_/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="418" column="8" selection-start-line="418" selection-start-column="8" selection-end-line="418" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="59" column="100" selection-start-line="59" selection-start-column="100" selection-end-line="59" selection-end-column="100" />
+          <folding>
+            <element signature="e#38#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/Fisher-ZilvCJO_/lib/python3.7/site-packages/sqlalchemy/orm/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-143">
+          <caret line="1764" column="8" selection-start-line="1764" selection-start-column="8" selection-end-line="1764" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/Fisher-ZilvCJO_/lib/python3.7/site-packages/wtforms/csrf/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/Fisher-ZilvCJO_/lib/python3.7/site-packages/wtforms/fields/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="325" lean-forward="true" selection-start-line="325" selection-end-line="325" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view_models/drift.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/Fisher-ZilvCJO_/lib/python3.7/site-packages/sqlalchemy/sql/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="575" column="8" selection-start-line="575" selection-start-column="8" selection-end-line="575" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/enums.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/drift.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+          <folding>
+            <element signature="e#39#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/wish.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="e#39#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view_models/wish.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/web/drift.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/web/wish.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="408">
+          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#68#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/web/gift.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        <state relative-caret-position="330">
+          <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#72#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/web/main.py">
+    <entry file="file://$PROJECT_DIR$/app/models/gift.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        <state relative-caret-position="152">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <element signature="e#38#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/Fisher-ZilvCJO_/lib/python3.7/site-packages/flask/helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="385" column="4" selection-start-line="385" selection-start-column="4" selection-end-line="385" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="e#38#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/book_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1906" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/spider/yushu_book.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="e#39#71#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/web/book.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+        <state relative-caret-position="114">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
           <folding>
-            <element signature="e#38#72#0" expanded="true" />
+            <element signature="e#38#96#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/web/wish.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="47" column="61" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/email/satisfy_wish.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
         </state>
       </provider>
     </entry>
